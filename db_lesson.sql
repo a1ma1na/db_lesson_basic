@@ -123,4 +123,4 @@ mysql> SELECT
     -> LEFT JOIN 
     -> reports ON people.person_id = people.person_id
     -> WHERE 
-    -> reports.person_id IS NULL;
+    -> reports.person_id = 9 ; 
